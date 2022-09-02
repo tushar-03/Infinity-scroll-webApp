@@ -21,7 +21,7 @@ function Signup() {
             signup(emailref.current.value, passwordref.current.value)
 
 
-            history('/')
+            history('/home')
 
         } catch {
             seterror('Failed to login')
@@ -36,7 +36,7 @@ function Signup() {
             <div className="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
                 <div className="w-full max-w-md space-y-8">
                     <div>
-                        <Link to='/' ><img className="mx-auto h-12 w-auto" src="https://play-lh.googleusercontent.com/hbpKZC6fsvRNCZ5ac_ngdayP4d2bX1v1LmllvC1Ts-d2i4AiN6W-mm-rzAeTzXo8xw" alt="Your Company" /></Link>
+                        <Link to='/home' ><img className="mx-auto h-12 w-auto" src="https://play-lh.googleusercontent.com/hbpKZC6fsvRNCZ5ac_ngdayP4d2bX1v1LmllvC1Ts-d2i4AiN6W-mm-rzAeTzXo8xw" alt="Your Company" /></Link>
 
                         <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">Sign in to your account</h2>
 

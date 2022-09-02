@@ -12,8 +12,8 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <Routes>
-            <Route path='/signup' element={<div><Signup /></div>} />
-            <Route path='/' element={<div><Header /><Home /></div>} />
+            <Route path='/' element={<div><Signup /></div>} />
+            <Route path='/home' element={<div><Header /><Home /></div>} />
           </Routes>
         </div></BrowserRouter>
     </AuthProvider>
